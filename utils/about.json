@@ -1,0 +1,143 @@
+{
+  "client": {
+    "host": "10.101.53.35"
+  },
+  "server": {
+    "current_time": 1531680780,
+    "services": [
+      {
+        "name": "trello",
+        "actions": [
+          {
+            "name": "card_is_finish",
+            "description": "A card is finish",
+            "idAction": 0
+          },
+          {
+            "name": "card_is_created",
+            "description": "A new card is created",
+            "idAction": 1
+          }
+        ],
+        "reactions": [
+          {
+            "name": "create_card",
+            "description": "Create a new card",
+            "idAction": 0
+          }
+        ]
+      },
+      {
+        "name": "github",
+        "actions": [
+          {
+            "name": "is_a_new_merge_request",
+            "description": "When there is a new merge resquest",
+            "idAction": 0
+          }
+        ],
+        "reactions": [
+          {
+            "name": "create_tag",
+            "description": "Create a tag",
+            "idAction": 0
+          },
+          {
+            "name": "create_issue",
+            "description": "Create a new issue",
+            "idAction": 1
+          }
+        ]
+      },
+      {
+        "name": "calendar",
+        "actions": [
+          {
+            "name": "is_a_new_event_create",
+            "description": "New event is created",
+            "idAction": 0
+          }
+        ],
+        "reactions": [
+          {
+            "name": "create_a_new_event",
+            "description": "Create a new event",
+            "idAction": 0
+          }
+        ]
+      },
+      {
+        "name": "drive",
+        "actions": [],
+        "reactions": [
+          {
+            "name": "upload_document",
+            "description": "Upload a file/buffer in your drive",
+            "idAction": 0
+          }
+        ]
+      },
+      {
+        "name": "sheet",
+        "actions": [
+          {
+            "name": "new_line_in_a_file",
+            "description": "A new line(s) is add to file",
+            "idAction": 0
+          }
+        ],
+        "reactions": [
+          {
+            "name": "add_a_new_line_in_sheet",
+            "description": "New line in a sheet",
+            "idAction": 0
+          }
+        ]
+      },
+      {
+        "name": "twitter",
+        "actions": [
+          {
+            "name": "is_a_new_mention_on_twitter",
+            "description": "When you are mentionned by someone",
+            "idAction": 0
+          }
+        ],
+        "reactions": [
+          {
+            "name": "post_a_tweet",
+            "description": "Create and post a tweet",
+            "idAction": 0
+          }
+        ]
+      },
+      {
+        "name": "timer",
+        "actions": [
+          {
+            "name": "Schedule_date_and_hour",
+            "description": "Schedule a date and an hour",
+            "idAction": 0
+          },
+          {
+            "name": "at_x_time",
+            "description": "Every x time",
+            "idAction": 1
+          }
+        ],
+        "reactions": []
+      },
+      {
+        "name": "sms",
+        "actions": [],
+        "reactions": [
+          {
+            "name": "send_a_sms",
+            "description": "Send a sms",
+            "idAction": 0
+          }
+        ]
+      }
+    ]
+  }
+}
