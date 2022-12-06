@@ -1,8 +1,7 @@
 const crypto = require('crypto');
 
 const algorithm = 'aes-256-ctr';
-console.log("process.env.NAME");
-const secretKey = 'vOVH6sdmpNWjRRIqCc7rdxs01lwHzfr3';
+const secretKey = process.env.SECRETKEY;
 const iv = crypto.randomBytes(16);
 
 const encrypt = (text) => {

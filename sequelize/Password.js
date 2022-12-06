@@ -11,9 +11,8 @@ module.exports.cronPassword = async (time) => {
           uuid: data.uuid,
         }
       })
-    console.log("data", data.expire)
+    // console.log("data", data.expire)
   })
-  // console.log("ok", password);
 }
 
 module.exports.create = async (data, res) => {
